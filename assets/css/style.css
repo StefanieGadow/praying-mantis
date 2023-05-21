@@ -14,3 +14,16 @@ body {
     font-weight: 300;
 }
 
+/* headings */
+
+h1, h2 {
+    font-family: Nunito, sans-serif;
+    font-weight: 500;
+    color: #FBC600;
+    text-transform: uppercase;
+}
+
+#logo {
+    float: left;
+}
+
