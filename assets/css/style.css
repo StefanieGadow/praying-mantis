@@ -126,3 +126,40 @@ h1, h2 {
     background-image: url("/assets/images/03.png");
 }
 
+/* tour dates */
+
+#tourdates {
+    margin-top: 72px;
+    font-size: 180%;
+}
+
+table {
+    width:  100%;
+}
+
+td {
+    height: 60px;
+    text-align: left;
+    vertical-align: middle;
+    border-bottom: 3px solid #ff0000;
+    font-size: 110%;
+    font-weight: 500;
+}
+
+.button {
+    background-color: #FCB600;
+    height: 40px;
+    border: none;
+    color: #171a1c;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 110%;
+    border-radius: 8px;
+}
+
+.ticket-button {
+    text-align: right;
+}
+
