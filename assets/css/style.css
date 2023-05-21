@@ -60,3 +60,69 @@ h1, h2 {
 .active {
     border-bottom: 3px solid #ff0000;
 }
+
+/* hero image slider */
+
+.hero-slider {
+    height: 600px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    text-align: center
+}
+
+.slider-menu {
+    position: absolute;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+    bottom: 0;
+}
+
+.slider-menu label {
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #FBC600;
+    border-radius: 50px;
+    margin: 0 0.2em 1em;
+}
+
+.slider-menu label:hover,
+.slider-menu label:focus,
+.slider-menu label:active {
+    background: #ff0000;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: left 0s 0.75s;
+}
+
+[id^="slide"]:checked + .slide {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+}
+
+.slide-1 {
+    background-image: url("/assets/images/01.png");
+}
+
+.slide-2 {
+    background-image: url("/assets/images/02.png");
+}
+
+.slide-3 {
+    background-image: url("/assets/images/03.png");
+}
+
