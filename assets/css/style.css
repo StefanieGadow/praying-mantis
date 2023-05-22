@@ -163,3 +163,34 @@ td {
     text-align: right;
 }
 
+/* footer */
+
+footer {
+    height: 120px;
+}
+
+
+
+footer ul {
+    text-align: center;
+    color: #FBC600;
+
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer i {
+    font-size: 180%;
+    margin: 1%;
+    padding: 3% 3% 0;
+    color: #FCB600;
+}
+
+footer div {
+    text-align: center;
+    padding: 0 0 2% 0;
+}
+
+
