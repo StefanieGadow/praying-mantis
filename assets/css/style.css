@@ -171,9 +171,77 @@ td {
     text-align: right;
 }
 
+
+
 /* footer */
 
-footer {
+/* #footer {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+
+
+#copyright {
+    justify-content: flex-start;
+    align-content: center;
+}
+
+#social-icons {
+    justify-content: flex-end;
+    align-content: center;
+    
+} */
+
+#footer {
+    display: flex;
+    align-content: center;
+    height: auto;
+    flex-flow: row wrap;
+    margin: 32px 0 32px 0;
+   
+}
+#footer i {
+    font-size: 180%;
+    margin: 0 16% 0 2%;
+    padding: 0;
+    color: #FCB600;
+    width: 30px;
+}
+
+#copyright {
+    justify-content: flex-start;
+    width: 25%;
+}
+
+#social-icons {
+    justify-content: center;
+    width: 75%;
+}
+/* #footer ul {
+    text-align: center;
+    justify-content: center;
+
+}
+
+#footer ul li {
+    display: inline-block;
+}
+
+#footer i {
+    font-size: 180%;
+    margin: 1%;
+    padding: 3% 1% 0;
+    color: #FCB600;
+}
+
+#footer div {
+    padding: 0 0 2% 0;
+} */
+
+/* footer {
     height: 120px;
 }
 
@@ -199,7 +267,7 @@ footer i {
 footer div {
     text-align: center;
     padding: 0 0 2% 0;
-}
+} */ 
 
 /* Band page */
 
