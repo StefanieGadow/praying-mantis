@@ -280,4 +280,10 @@ footer div {
 
 .albums img {
     border-radius: 8px;
+    margin: 12px 12px 12px 0;
+}
+
+i {
+    width: 300px;
+    margin: 12px 12px 12px 0;
 }
