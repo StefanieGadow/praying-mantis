@@ -362,27 +362,7 @@ i {
 }
 
 
-/*
-.image-right {
-    float: right;
-    margin-left: 32px;
-    margin-bottom: 32px;
-    border-radius: 8px;
-}
-
-.image-left {
-    float: left;
-    margin-right: 32px;
-    margin-bottom: 32px;
-    border-radius: 8px;
-}
-
-
-
-#millenium {
-    padding-top: 32px;
-}
-*/
+/* Band Page*/
 
 #band-history {
     margin-top: 48px;
@@ -430,4 +410,19 @@ i {
         margin-top: 36px;
         margin-bottom: 24px;
 }
+
+/* Contact page*/
+
+#contact {
+    clear: both;
+}
+
+.contact-container {
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 16px;
+}
+
+
 
