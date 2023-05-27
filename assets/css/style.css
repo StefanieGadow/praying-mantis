@@ -362,7 +362,7 @@ i {
 }
 
 
-
+/*
 .image-right {
     float: right;
     margin-left: 32px;
@@ -377,12 +377,57 @@ i {
     border-radius: 8px;
 }
 
-.band-history {
-    margin-top: 48px;
-    margin-bottom: 24px;
-    
-}
+
 
 #millenium {
     padding-top: 32px;
 }
+*/
+
+#band-history {
+    margin-top: 48px;
+}
+
+.band-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+    
+}
+
+
+.band-text {
+    grid-column: span 2;
+    font-size: 110%;
+}
+
+.band-image {
+    grid-column: span 1;
+}
+
+.band-image img {
+    border-radius: 8px;
+    height: auto;
+}
+
+.band-history {
+    margin-top: 0;
+    margin-bottom: 24px;
+
+}
+
+.band-image1 {
+    margin-top: 24px;
+    
+   
+}
+
+.band-text h3 {
+        font-family: Nunito, sans-serif;
+        font-weight: 500;
+        color: #FBC600;
+        text-transform: uppercase;
+        margin-top: 36px;
+        margin-bottom: 24px;
+}
+
