@@ -41,6 +41,10 @@ h2 {
 #menu,
 #logo {
     line-height: 120px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 9;
 }
 
 #menu li {
@@ -63,6 +67,126 @@ h2 {
 .active {
     border-bottom: 3px solid #ff0000;
 }
+
+/* First Try Hamburger
+#icon {
+    color: #FBC600;
+    font-size: 130%;
+    line-height: 120px;
+    display: inline-block;
+    padding: 4px 4px;
+    cursor: pointer;
+}
+
+#icon:hover {
+    color: #ff0000;
+}
+
+#hamburger-menu,
+#icon {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+   #menu {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(23, 26, 28);
+    left: 0;
+    top: 0;
+   } 
+
+   #menu li {
+    display: flex;
+
+   }
+} */
+
+/* Hamburger menu */
+
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    opacity: 1;
+    visibility: hidden;
+    transition: opacity .35s, visibility .35s, height .35s;
+    overflow: hidden;
+    background: #171A1C;
+    z-index: 1000;
+}
+
+#main-menu {
+    display: block;
+    height: 120px;
+    width: 100%;
+    z-index: 1100;
+
+}
+
+#hamburger-input {
+    display:none;
+}
+
+#hamburger-menu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 48px;
+    height: 48px;
+    z-index: 1100;
+    display: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: #FCB600;
+    cursor: pointer;
+}
+
+#hamburger-menu li{
+    list-style-type: none;
+    line-height: 2rem;
+    
+
+}
+
+#hamburger-menu a {
+    color: #Fbc600;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+#hamburger-menu a:hover {
+    color: #ff0000;
+}
+
+#sidebar-menu {
+    visibility: hidden;
+}
+
+#hamburger-input:checked ~ #sidebar-menu {
+    visibility: visible;
+    right: 0;
+}
+
+#hamburger-input:checked ~ .menu-overlay {
+    visibility: visible;
+    opacity: 0.9;
+}
+
+@media screen and (max-width: 750px) {
+    #main-menu {
+        display: none;
+    }
+    #hamburger-menu {
+        display: inline;
+    }
+}
+
+
 
 /* hero image slider */
 
