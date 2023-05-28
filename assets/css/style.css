@@ -206,19 +206,34 @@ h2 {
 /* hero image slider */
 
 .hero-slider {
-    height: 600px;
+    height: auto;
     width: 100%;
     position: relative;
     overflow: hidden;
-    text-align: center
+    text-align: center;
+    border-radius: 8px;
+}
+
+.hero-slider img {
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    
+}
+
+.hero-slider input {
+    visibility: hidden;
 }
 
 .slider-menu {
     position: absolute;
     left: 0;
+    bottom: 3%;
     z-index: 900;
     width: 100%;
-    bottom: 0;
+    
+    
+    
 }
 
 .slider-menu label {
@@ -246,9 +261,10 @@ h2 {
     left: 100%;
     z-index: 10;
     padding: 0;
-    background-size: cover;
+    
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 0% 0%;
     transition: left 0s 0.75s;
 }
 
