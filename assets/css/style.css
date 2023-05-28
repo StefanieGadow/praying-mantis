@@ -298,6 +298,7 @@ h2 {
 
 table {
     width: 100%;
+    table-layout: fixed;
 }
 
 td {
@@ -324,6 +325,27 @@ td {
 
 .ticket-button {
     text-align: right;
+}
+
+@media screen and (max-width: 800px) {
+    table tr {
+        display: block;
+        border-bottom: 3px solid #ff0000;
+        margin-top: 24px;
+        
+    }
+
+    table td {
+        display: block;
+        border-bottom: none;
+        text-align: center;
+        height: 48px;
+    }
+
+    .ticket-button {
+        text-align: center;
+        margin-bottom: 24px;
+    }
 }
 
 
