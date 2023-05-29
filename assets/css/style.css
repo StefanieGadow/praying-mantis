@@ -192,6 +192,12 @@ h2 {
     opacity: 0.85;
 }
 
+@media screen and (max-width: 1000px) {
+    #menu li {
+        margin-left: 30px;
+    }
+}
+
 @media screen and (max-width: 750px) {
     #main-menu {
         display: none;
@@ -252,6 +258,7 @@ h2 {
 .slider-menu label:active {
     background: #ff0000;
 }
+
 
 .slide {
     width: 100%;
@@ -396,6 +403,25 @@ td {
 #social-icons {
     justify-content: center;
     width: 75%;
+}
+
+@media screen and (max-width: 800px){
+    #footer i {
+        margin: 0 5% 0 2%;
+    }
+
+    #social-icons {
+        text-align: center;
+        width: 100%;
+    }
+
+    #copyright {
+        width: 100%;
+        margin-bottom: 12px;
+        text-align: center;
+        
+    }
+
 }
 /* #footer ul {
     text-align: center;
