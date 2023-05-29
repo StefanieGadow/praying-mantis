@@ -132,7 +132,7 @@ h2 {
 }
 
 #hamburger-menu {
-    position: fixed;
+    position: absolute;
     top: 40px;
     right: 20px;
     width: 48px;
@@ -751,7 +751,7 @@ i {
     
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 16px;
+    grid-gap: 24px;
 }
 .contact-container h3 {
     font-family: Nunito, sans-serif;
@@ -771,10 +771,14 @@ i {
       text-decoration: none;
   }
     
- 
-.row2 {
+ #booking {
     grid-row: 2;
-}
+ }
+
+ #merchandise {
+    grid-row: 2;
+ }
+
 
 /* Contact form */
 
@@ -802,7 +806,7 @@ i {
 }
 
 #contact-form input[type=button] {
-    width: 30%;
+    width: 250px;
     border: none;
     background-color: #Fbc600;
     color: #171A1C;
@@ -828,5 +832,97 @@ i {
     font-weight: 300;
 }
 
+@media screen and (max-width: 1280px) {
+    .contact-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    
+    }
+
+    #management {
+        grid-column: 1 / span 1;
+    }
+
+    #record-label {
+        grid-column: 1 / span 1;
+
+    }
+
+    #booking {
+        grid-column: 1 / span 1;
+        grid-row: 3;
+    }
+
+    #merchandise {
+        grid-column: 1 /span 1;
+        grid-row: 4;
+    }
+
+    #contact-form {
+        grid-column: 2 / span 2;
+        grid-row: 1 / span 4;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .contact-container {
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    #management {
+        grid-column: 1 / span 1;
+    }
+
+    #record-label {
+        grid-column: 1 / span 1;
+
+    }
+
+    #booking {
+        grid-column: 1 / span 1;
+        grid-row: 3;
+    }
+
+    #merchandise {
+        grid-column: 1 /span 1;
+        grid-row: 4;
+    }
+
+    #contact-form {
+        grid-column: 2 / span 1;
+        grid-row: 1 / span 4;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+
+    }
+
+    #management {
+        grid-column: 1 / span 1;
+    }
+
+    #record-label {
+        grid-column: 1 / span 1;
+
+    }
+
+    #booking {
+        grid-column: 1 / span 1;
+        grid-row: 3;
+    }
+
+    #merchandise {
+        grid-column: 1 /span 1;
+        grid-row: 4;
+    }
+
+    #contact-form {
+        grid-column: 1 / span 1;
+        grid-row: 5;
+    }
+}
 
 
