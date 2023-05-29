@@ -565,32 +565,142 @@ i {
 }
 
 
-/* Band Page*/
+
+/* Band Page */
 
 #band-history {
     margin-top: 48px;
+    box-sizing: border-box;
 }
 
 .band-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 24px;
+    
+}
+
+.band-text-1 {
+    grid-column: 1 / span 2;
+}
+
+.band-image-1 {
+    grid-column: 3 / span 1;
+}
+
+.band-text-2 {
+    grid-column: 2 / span 2;
+}
+
+.band-image-2 {
+    grid-column: 1 / span 1;
+}
+.band-text-3 {
+    grid-column: 1 / span 2;
+}
+
+.band-image-3 {
+    grid-column: 3 / span 1;
+}
+
+.band-image-2a {
+    display: none;
+}
+
+@media screen and (max-width: 1280px){
+.band-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+}
+
+.band-text-1 {
+    grid-column: 1 / span 1;
+}
+
+.band-image-1 {
+    grid-column: 2 / span 1;
+}
+
+.band-text-2 {
+    grid-column: 2 / span 1;
+}
+
+.band-image-2 {
+    grid-column: 1 / span 1;
+}
+
+.band-text-3 {
+    grid-column: 1 / span 1;
+}
+
+.band-image-3 {
+    grid-column: 2 / span 1;
+}
+
+}
+
+@media screen and (max-width: 980px) {
+    .band-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .band-text-1 {
+        grid-column: 1 / span 1;
+    }
+
+    .band-image-1 {
+        grid-column: 1 / span 1;
+    }
+
+    .band-text-2 {
+        grid-column: 1 / span 1;
+        
+    }
+
+    .band-image-2 {
+        display: none;
+    }
+
+    .band-image-2a {
+        display: block;
+        grid-column: 1 / span 1;
+        
+    }
+
+    .band-text-3 {
+        grid-column: 1 / span 1;
+    }
+
+    .band-image-3 {
+        grid-column: 1 / span 1;
+    }
+
+}
+
+
+
+/* .band-container {
+    display: grid;
+    
     grid-gap: 16px;
     
 }
 
 
 .band-text {
-    grid-column: span 2;
+    grid-column: span 1;
     font-size: 110%;
 }
 
 .band-image {
     grid-column: span 1;
-}
+} */
 
 .band-image img {
     border-radius: 8px;
     height: auto;
+    width: 100%;
 }
 
 .band-history {
@@ -613,6 +723,23 @@ i {
         margin-top: 36px;
         margin-bottom: 24px;
 }
+
+    /* @media screen and (min-width: 1200px) {
+    .band-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+        @media screen and (min-width: 1600px) {
+            .band-container {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .band-text {
+                grid-column: 1 / span 2;
+               */
+
+
+    
 
 /* Contact page*/
 
