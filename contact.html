@@ -102,16 +102,16 @@
             </div>
             <div id="contact-form">
                 <h3>Send us a message</h3>
-                <form>
+                <form class="form-text" method="POST" action="https://formdump.codeinstitute.net/">
                     <label for="name">Name</label><br>
-                    <input type="text" id="name" name="name" value="Your name" required><br>
+                    <input type="text" id="name" name="name" placeholder="Your name" required><br>
                     <label for="email">Email</label><br>
-                    <input type="email" id="email" name="email" value="Your email" required><br>
+                    <input type="email" id="email" name="email" placeholder="Your email" required><br>
                     <label for="subject">Subject</label><br>
-                    <input type="text" id="subject" name="subject" value="Please provide a subject"><br>
+                    <input type="text" id="subject" name="subject" placeholder="Please provide a subject"><br>
                     <label for="message">Message</label><br>
-                    <textarea name="message">Enter your text here.</textarea><br>
-                    <input type="button" id="send-button" value="Send message">
+                    <textarea name="message" required placeholder="Enter your text here."></textarea><br>
+                    <input type="submit" id="send-button" value="Send message">
             
                 </form>
             
