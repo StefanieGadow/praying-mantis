@@ -13,7 +13,6 @@ body {
     margin: 0 8% 0 8%;
     font-family: Nunito, sans-serif;
     font-weight: 300;
-
 }
 
 /* headings */
@@ -26,12 +25,6 @@ h2 {
     text-transform: uppercase;
 }
 
-#logo {
-    float: left;
-    height: 120px;
-    width: 180px;
-}
-
 /* navigation links */
 
 .nav-bar {
@@ -42,8 +35,6 @@ h2 {
     list-style: none;
     position: relative;
     background-color: var(--color2);
-    
-    
 }
 
 .logo img {
@@ -97,7 +88,6 @@ h2 {
 .open-menu,
 .close-menu {
     position: absolute;
-    
     color: #FCB600;
     cursor: pointer;
     font-size: 1.5rem;
@@ -161,213 +151,6 @@ h2 {
         right: 0;
     }
 }
-/*
-#menu {
-    font-size: 120%;
-
-}
-
-#menu,
-#logo {
-    line-height: 120px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    z-index: 9;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-left: 80px;
-    text-transform: uppercase;
-}
-
-#menu a {
-    color: #FBC600;
-    font-weight: 500;
-    text-decoration: none;
-}
-
-#menu a:hover {
-    border-bottom: 3px solid #FBC600;
-}
-
-.active {
-    border-bottom: 3px solid #ff0000;
-}
-
-/* First Try Hamburger
-#icon {
-    color: #FBC600;
-    font-size: 130%;
-    line-height: 120px;
-    display: inline-block;
-    padding: 4px 4px;
-    cursor: pointer;
-}
-
-#icon:hover {
-    color: #ff0000;
-}
-
-#hamburger-menu,
-#icon {
-    display: none;
-}
-
-@media screen and (max-width: 768px) {
-   #menu {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(23, 26, 28);
-    left: 0;
-    top: 0;
-   } 
-
-   #menu li {
-    display: flex;
-
-   }
-} 
-
-/* Hamburger menu 
-
-.sidebar-container {
-    position: relative;
-}
-
-.hamburger-icon {
-    color:#FCB600;
-    min-width: 32px;
-    min-height: 32px;
-    transition: opacity 80ms linear;
-    display: none;
-    opacity: 0;
-}
-
-.close-icon {
-    color:#FBC600;
-    position: absolute;
-    top: 0;
-    min-width: 32px;
-    min-height: 32px;
-    display: none;
-    opacity: 0;
-    z-index: -1;
-}
-
-@media screen and (max-width: 750px) {
-    .hamburger-icon {
-        opacity: 1;
-    }
-}
-
-.menu-overlay {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 250px;
-    height: 100%;
-    opacity: 1;
-    visibility: hidden;
-    transition: opacity .35s, visibility .35s, height .35s;
-    overflow: hidden;
-    background: #171A1C;
-    z-index: 1000;
-}
-
-#main-menu {
-    display: block;
-    height: 120px;
-    width: 100%;
-    z-index: 1100;
-
-}
-
-#hamburger-input {
-    display:none;
-}
-
-#hamburger-menu {
-    position: absolute;
-    top: 40px;
-    right: 20px;
-    width: 48px;
-    height: 48px;
-    z-index: 1100;
-    display: none;
-    border: none;
-    padding: 0;
-    color: #FCB600;
-    cursor: pointer;
-    
-    
-}
-
-#hamburger-menu li{
-    list-style-type: none;
-    line-height: 2rem;
-    text-align: left;
-
-}
-
-#hamburger-menu a {
-    color: #Fbc600;
-    font-size: 1.2rem;
-    text-decoration: none;
-}
-
-#hamburger-menu a:hover {
-    color: #ff0000;
-}
-
-#sidebar-menu {
-    visibility: hidden;
-    width: 180px;
-    height: auto;
-    color: #FBC600;
-    margin-right: 50px;
-    
-}
-
-#sidebar-menu a {
-    color: #FBC600;
-    font-weight: 500;
-    text-decoration: none;
-}
-
-#hamburger-input:checked + #hamburger-menu #sidebar-menu {
-    visibility: visible;
-    
-    
-}
-
-
-
-#hamburger-input:checked ~ .menu-overlay {
-    visibility: visible;
-    opacity: 0.85;
-}
-
-@media screen and (max-width: 1000px) {
-    #menu li {
-        margin-left: 30px;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    #main-menu {
-        display: none;
-    }
-    #hamburger-menu {
-        display: inline;
-    }
-    
-}
-
-
 
 /* hero image slider */
 
@@ -384,7 +167,6 @@ h2 {
     z-index: -1;
     width: 100%;
     height: auto;
-    
 }
 
 .hero-slider input {
@@ -397,16 +179,13 @@ h2 {
     bottom: 3%;
     z-index: 900;
     width: 100%;
-    
-    
-    
 }
 
 .slider-menu label {
     cursor: pointer;
     display: inline-block;
-    width: 12px;
-    height: 12px;
+    width: 24px;
+    height: 24px;
     background: #FBC600;
     border-radius: 50px;
     border: 4px solid #171A1C;
@@ -419,7 +198,6 @@ h2 {
     background: #ff0000;
 }
 
-
 .slide {
     width: 100%;
     height: 100%;
@@ -428,7 +206,6 @@ h2 {
     left: 100%;
     z-index: 10;
     padding: 0;
-    
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 0% 0%;
@@ -499,7 +276,6 @@ td {
         display: block;
         border-bottom: 3px solid #ff0000;
         margin-top: 24px;
-        
     }
 
     table td {
@@ -515,29 +291,7 @@ td {
     }
 }
 
-
-
 /* footer */
-
-/* #footer {
-    height: 120px;
-    display: flex;
-    align-items: center;
-    flex-flow: row wrap;
-}
-
-
-
-#copyright {
-    justify-content: flex-start;
-    align-content: center;
-}
-
-#social-icons {
-    justify-content: flex-end;
-    align-content: center;
-    
-} */
 
 #footer {
     display: flex;
@@ -545,8 +299,8 @@ td {
     height: auto;
     flex-flow: row wrap;
     margin: 32px 0 32px 0;
-   
 }
+
 #footer i {
     font-size: 180%;
     margin: 0 16% 0 2%;
@@ -579,58 +333,8 @@ td {
         width: 100%;
         margin-bottom: 12px;
         text-align: center;
-        
     }
-
 }
-/* #footer ul {
-    text-align: center;
-    justify-content: center;
-
-}
-
-#footer ul li {
-    display: inline-block;
-}
-
-#footer i {
-    font-size: 180%;
-    margin: 1%;
-    padding: 3% 1% 0;
-    color: #FCB600;
-}
-
-#footer div {
-    padding: 0 0 2% 0;
-} */
-
-/* footer {
-    height: 120px;
-}
-
-
-
-footer ul {
-    text-align: center;
-    color: #FBC600;
-
-}
-
-footer ul li {
-    display: inline-block;
-}
-
-footer i {
-    font-size: 180%;
-    margin: 1%;
-    padding: 3% 3% 0;
-    color: #FCB600;
-}
-
-footer div {
-    text-align: center;
-    padding: 0 0 2% 0;
-} */ 
 
 /* Band page */
 
@@ -660,8 +364,6 @@ footer div {
 .image {
     position: relative;
 }
-
-
 
 .overlay {
     position: absolute;
@@ -724,8 +426,6 @@ i {
     margin: 12px 12px 12px 0;
 }
 
-
-
 /* Band Page */
 
 #band-history {
@@ -737,7 +437,6 @@ i {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 24px;
-    
 }
 
 .band-text-1 {
@@ -796,7 +495,6 @@ i {
 .band-image-3 {
     grid-column: 2 / span 1;
 }
-
 }
 
 @media screen and (max-width: 980px) {
@@ -835,27 +533,7 @@ i {
     .band-image-3 {
         grid-column: 1 / span 1;
     }
-
 }
-
-
-
-/* .band-container {
-    display: grid;
-    
-    grid-gap: 16px;
-    
-}
-
-
-.band-text {
-    grid-column: span 1;
-    font-size: 110%;
-}
-
-.band-image {
-    grid-column: span 1;
-} */
 
 .band-image img {
     border-radius: 8px;
@@ -866,13 +544,10 @@ i {
 .band-history {
     margin-top: 0;
     margin-bottom: 24px;
-
 }
 
 .band-image1 {
     margin-top: 24px;
-    
-   
 }
 
 .band-text h3 {
@@ -883,23 +558,6 @@ i {
         margin-top: 36px;
         margin-bottom: 24px;
 }
-
-    /* @media screen and (min-width: 1200px) {
-    .band-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-        @media screen and (min-width: 1600px) {
-            .band-container {
-                grid-template-columns: repeat(3, 1fr);
-            }
-
-            .band-text {
-                grid-column: 1 / span 2;
-               */
-
-
-    
 
 /* Contact page*/
 
@@ -939,7 +597,6 @@ i {
     grid-row: 2;
  }
 
-
 /* Contact form */
 
 #contact-form {
@@ -958,7 +615,6 @@ i {
     color: #F2F2F2;
     font-family: Nunito, sans-serif;
     font-weight: 300;
-
 }
 
 #contact-form input:focus {
@@ -974,8 +630,6 @@ i {
     font-weight: 500;
     font-size: 120%;
     float: right;
-
-    
 }
 
 #contact-form textarea {
@@ -1005,13 +659,11 @@ i {
         border-radius: 8px;
         width: 300px;
         float: right;
-
 }
 
 @media screen and (max-width: 1280px) {
     .contact-container {
         grid-template-columns: 1fr 1fr 1fr;
-    
     }
 
     #management {
@@ -1042,7 +694,6 @@ i {
 @media screen and (max-width: 1000px) {
     .contact-container {
         grid-template-columns: 1fr 1fr;
-
     }
 
     #management {
@@ -1051,7 +702,6 @@ i {
 
     #record-label {
         grid-column: 1 / span 1;
-
     }
 
     #booking {
@@ -1073,7 +723,6 @@ i {
 @media screen and (max-width: 500px) {
     .contact-container {
         grid-template-columns: 1fr;
-
     }
 
     #management {
