@@ -218,17 +218,17 @@ h2 {
 }
 
 .slide-1 {
-    background-image: url("/assets/images/hero1.png");
+    background-image: url("assets/images/hero1.png");
     border-radius: 8px;
 }
 
 .slide-2 {
-    background-image: url("/assets/images/hero2.png");
+    background-image: url("assets/images/hero2.png");
     border-radius: 8px;
 }
 
 .slide-3 {
-    background-image: url("/assets/images/hero3.png");
+    background-image: url("assets/images/hero3.png");
     border-radius: 8px;
 }
 
@@ -377,7 +377,7 @@ td {
     width: 100%;
     opacity: 0;
     transition: 0.5s ease;
-    background-image: url(/assets/images/overlay.png);
+    background-image: url(assets/images/overlay.png);
 }
 
 .image:hover .overlay {
