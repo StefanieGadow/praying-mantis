@@ -25,7 +25,7 @@ h2 {
     text-transform: uppercase;
 }
 
-/* navigation links */
+/* navigation links - Tutorial for CSS only Hamburger menu: https: //www.youtube.com/watch?v=QQlxvj_GKss */
 
 .nav-bar {
     width: 100%;
@@ -67,7 +67,7 @@ h2 {
     border-bottom: 3px solid #ff0000;
 }
 
-.menu li a::after {
+.menu a::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -78,7 +78,7 @@ h2 {
     transition: 0.15s ease-in-out;
 }
 
-.menu li a:hover:after {
+.menu a:hover:after {
     width: 100%;
 }
 
@@ -135,12 +135,9 @@ h2 {
             scale: 80%;
         }
 
-    .menu li {
-        margin-top: 24px;
-    }
-
-    .menu li a {
+    .menu a {
         padding: 10px;
+        margin-top: 24px;
     }
 
     .open-menu,
@@ -153,7 +150,7 @@ h2 {
     }
 }
 
-/* hero image slider */
+/* hero image slider - Tutorial for hero slider using CSS only: https: //www.w3docs.com/snippets/css/how-to-create-an-image-slider-or-slideshow.html#slide-1 */
 
 .hero-slider {
     height: auto;
