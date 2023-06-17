@@ -116,7 +116,7 @@ h2 {
     display: none;
 }
 
-@media(max-width: 750px) {
+@media(max-width: 980px) {
     .menu {
         flex-direction: column;
         align-items: center;
@@ -692,7 +692,7 @@ i {
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 980px) {
     .contact-container {
         grid-template-columns: 1fr 1fr;
     }
@@ -721,7 +721,7 @@ i {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 660px) {
     .contact-container {
         grid-template-columns: 1fr;
     }
