@@ -8,8 +8,8 @@
 }
 
 body {
-    background-color: #171A1C;
-    color: #F2F2F2;
+    background-color: #171a1c;
+    color: #f2f2f2;
     margin: 0 8% 0 8%;
     font-family: Nunito, sans-serif;
     font-weight: 300;
@@ -21,7 +21,7 @@ h1,
 h2 {
     font-family: Nunito, sans-serif;
     font-weight: 500;
-    color: #FBC600;
+    color: #fbc600;
     text-transform: uppercase;
 }
 
@@ -48,7 +48,7 @@ h2 {
 .menu a {
     display: inline-block;
     text-decoration: none;
-    color: #FCB600;
+    color: #fcb600;
     font-family: Nunito, sans-serif;
     font-weight: 500;
     font-size: 150%;
@@ -60,7 +60,7 @@ h2 {
 }
 
 .menu a:hover {
-    border-bottom: 3px solid #FBC600;
+    border-bottom: 3px solid #fbc600;
 }
 
 .active {
@@ -85,7 +85,7 @@ h2 {
 .open-menu,
 .close-menu {
     position: absolute;
-    color: #FCB600;
+    color: #fcb600;
     cursor: pointer;
     font-size: 1.5rem;
     display: none;
@@ -127,7 +127,7 @@ h2 {
         top: 0;
         right: -100%;
         z-index: 10000;
-        background-color: #171A1C;
+        background-color: #171a1c;
         transition: all 0.2s ease-in-out;
     }
 
@@ -188,9 +188,9 @@ h2 {
     display: inline-block;
     width: 20px;
     height: 20px;
-    background: #FBC600;
+    background: #fbc600;
     border-radius: 50px;
-    border: 4px solid #171A1C;
+    border: 4px solid #171a1c;
     margin: 0 0.2em 1em;
 }
 
@@ -257,7 +257,7 @@ td {
 }
 
 .button {
-    background-color: #FCB600;
+    background-color: #fcb600;
     height: 40px;
     border: none;
     color: #171a1c;
@@ -311,7 +311,7 @@ td {
     font-size: 180%;
     margin: 0 16% 0 2%;
     padding: 0;
-    color: #FCB600;
+    color: #fcb600;
     width: 30px;
 }
 
@@ -379,7 +379,7 @@ td {
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: .5s ease;
+    transition: 0.5s ease;
     background-image: url(/assets/images/overlay.png);
 }
 
@@ -557,7 +557,7 @@ i {
 .band-text h3 {
         font-family: Nunito, sans-serif;
         font-weight: 500;
-        color: #FBC600;
+        color: #fbc600;
         text-transform: uppercase;
         margin-top: 36px;
         margin-bottom: 24px;
@@ -578,7 +578,7 @@ i {
 .contact-container h3 {
     font-family: Nunito, sans-serif;
     font-weight: 500;
-    color: #FBC600;
+    color: #fbc600;
     text-transform: uppercase;
     margin-top: 36px;
     margin-bottom: 16px;
@@ -589,7 +589,7 @@ i {
  }
 
   .contact-container a:hover {
-      color: #Fbc600;
+      color: #fbc600;
       text-decoration: none;
   }
     
@@ -614,9 +614,9 @@ i {
     margin: 0 0 24px 0;
     box-sizing: border-box;
     border-radius: 8px;
-    border: 3px solid #Fbc600;
-    background-color: #171A1C;
-    color: #F2F2F2;
+    border: 3px solid #fbc600;
+    background-color: #171a1c;
+    color: #f2f2f2;
     font-family: Nunito, sans-serif;
     font-weight: 300;
 }
@@ -628,8 +628,8 @@ i {
 #contact-form input[type=button] {
     width: 250px;
     border: none;
-    background-color: #Fbc600;
-    color: #171A1C;
+    background-color: #fbc600;
+    color: #171a1c;
     font-family: Nunito, sans-serif;
     font-weight: 500;
     font-size: 120%;
@@ -643,15 +643,15 @@ i {
     margin: 0 0 24px 0;
     box-sizing: border-box;
     border-radius: 8px;
-    border: 3px solid #Fbc600;
-    background-color: #171A1C;
-    color: #F2F2F2;
+    border: 3px solid #fbc600;
+    background-color: #171a1c;
+    color: #f2f2f2;
     font-family: Nunito, sans-serif;
     font-weight: 300;
 }
 
 #contact-form input[type=submit] {
-    background-color: #FCB600;
+    background-color: #fcb600;
         height: 40px;
         border: none;
         color: #171a1c;
