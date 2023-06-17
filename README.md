@@ -64,4 +64,23 @@ All wireframes were designed for laptop/desktop, iPad/tablet and phone screens.
 - Each individual band member could get the chance to introduce themselves to the fans.
 - A media section with more images and videos could be implemented.
 
+## Technologies Used
+
+### Languages Used
+
+- HTML
+- CSS
+
+### Frameworks, Libraries and Programs Used
+
+- [Font Aweesome](https://fontawesome.com/) used for icons.
+- [Google Fonts](https://fonts.google.com/) used to import “Nunito” font.
+- [GitHub](https://github.com) used to host repository.
+- [Codeanywhere](https://app.codeanywhere.com/) used to develop the project and organise version control.
+- [GitHub Pages](https://pages.github.com/) used to deploy the site.
+- [Adobe XD](https://helpx.adobe.com/de/support/xd.html) used to create wireframes.
+- [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) for performance review.
+- [PowerMapper](https://www.powermapper.com/) used to check compatibility with older browsers.
+- [Responsinator](http://www.responsinator.com/) used to check site was responsive on different screen sizes.
+
 
