@@ -377,7 +377,7 @@ td {
     width: 100%;
     opacity: 0;
     transition: 0.5s ease;
-    background-image: url(..images/overlay.png);
+    background-image: url(../images/overlay.png);
 }
 
 .image:hover .overlay {
