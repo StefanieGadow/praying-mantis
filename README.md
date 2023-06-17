@@ -2,7 +2,9 @@
 
 Praying Mantis is the official band website for the British rock band Praying Mantis. The site is targeted toward fans of the band as well as concert promoters. The website will give the user an overview of the history and discography of the band, upcoming tour dates and contact information. The band has an outdated website that could use a new layout.
 
-You can find the live site here.
+![Mockup](assets/images/amiresponsive.png)
+
+You can find the live site [here](https://stefaniegadow.github.io/praying-mantis/index.html).
 
 ## User Experience (UX)
 
@@ -17,7 +19,7 @@ You can find the live site here.
 
 ### Colour scheme
 
-![Colour Scheme](/assets/images/colour-scheme.png)
+![Colour Scheme](assets/images/colour-scheme.png)
 
 The red and yellow colours were taken from the band logo.
 
