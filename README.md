@@ -17,6 +17,8 @@ You can find the live site here.
 
 ### Colour scheme
 
+[Colour Scheme](/assets/images/colour-scheme.png)
+
 The red and yellow colours were taken from the band logo.
 
 ### Typography
