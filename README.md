@@ -58,4 +58,10 @@ All wireframes were designed for laptop/desktop, iPad/tablet and phone screens.
   - The contact page provides information about the band’s management, record company and booking agent. 
   - The contact form allows users a convenient way to send a message to the band.
 
+### Future Features
+
+- Every album on the discography page could get its own page with song titles, lengths, and information about the record producer. 
+- Each individual band member could get the chance to introduce themselves to the fans.
+- A media section with more images and videos could be implemented.
+
 
