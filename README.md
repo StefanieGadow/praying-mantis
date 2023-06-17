@@ -87,4 +87,86 @@ All wireframes were designed for laptop/desktop, iPad/tablet and phone screens.
 - [PowerMapper](https://www.powermapper.com/) used to check compatibility with older browsers.
 - [Responsinator](http://www.responsinator.com/) used to check site was responsive on different screen sizes.
 
+## Testing
+
+### Validating
+
+After the completion of sections, the following websites were used to check for syntax errors:
+- HTML – [HTML validator](https://validator.w3.org/nu/)
+- CSS – [CSS validator](https://jigsaw.w3.org/css-validator/)
+No errors or warnings found.
+
+### Testing User Stories from UX Section
+
+- As a user, I want to be able to get an overview of upcoming tour dates.
+  - The homepage shows the upcoming tour dates. The page looks good on all screen sizes.
+- As a user, I want to be able to read about the band’s history.
+  - The band page is fully responsive and works on all screen sizes. 
+- As a user, I want to be able to find information about their released albums.
+  - The discography page provides information about the band’s albums and adjusts to different breakpoints.
+- As a user, I want to be able to contact the band.
+  - The contact information of the management and booking agent is available, and links open in new tabs. The contact form adjusts to different screen sizes.
+
+### Further Testing
+
+#### Personal Testing
+
+Through devices that are readily available to me, I was able to test the page on:
+
+- iPhone SE – Safari
+- iPad mini – Safari
+- MacBook – Safari
+- Windows laptop – Google Chrome
+- Windows laptop – Microsoft Edge
+- Windows laptop – Mozilla Firefox
+
+#### Responsinator
+
+Responsinator was used to ensure that the website was responsive on all devices and browsers.
+
+#### Third-party Testing
+
+I asked a few people to test the website on various devices. Their feedback was incorporated into the latest version.
+
+#### Lighthouse
+
+Lighthouse was used to see if there were issues with the performance of the website. 
+
+#### PowerMapper
+
+PowerMapper was used to check the website for compatibility across different browsers.
+
+## Deployment
+
+This site was deployed through GitHub Pages using the following steps:
+
+1. Log into GitHub.
+2. Locate the repository.
+3. Locate the settings option along the options bar.
+4. Locate GitHub Pages options towards the bottom of the page.
+5. In 'Source' dropdown, select 'Master' from the branch options.
+6. Click the save button.
+7. 
+The site is now published though it may not be accessible straight away.
+
+The site URL will be visible on the green bar under the section header. This will remain there permanently, and you can refer back to it at any time.
+
+The live link can be found [here](https://stefaniegadow.github.io/praying-mantis/index.html) 
+
+## Credits
+
+### Code
+
+- The hero image slider was created with the help of this [tutorial](https://www.w3docs.com/snippets/css/how-to-create-an-image-slider-or-slideshow.html#slide-1). Commented in HTML and CSS for clarity.
+- The change from the desktop navigation bar to the hamburger menu on smaller screens was created using this [tutorial](https://www.youtube.com/watch?v=QQlxvj_GKss). Commented in HTML and CSS for clarity.
+- 
+### Content
+
+The majority of the content was taken from the existing Praying Mantis website. Some smaller parts were added since their band history was not updated since 2019. 
+
+### Media
+
+All album covers, and the band logo were taken from the existing Praying Mantis website. 
+All band photographs are my own. 
+
 
