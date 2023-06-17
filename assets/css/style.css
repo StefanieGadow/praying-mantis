@@ -34,7 +34,7 @@ h2 {
     align-items: center;
     list-style: none;
     position: relative;
-    background-color: var(--color2);
+    background-color: #171a1c;
 }
 
 .logo img {
@@ -74,7 +74,7 @@ h2 {
     left: 0;
     width: 0;
     height: 1px;
-    background-color: var(--color1);
+    background-color: #171a1c;
     transition: 0.15s ease-in-out;
 }
 
@@ -132,7 +132,8 @@ h2 {
     }
 
     .logo img {
-            scale: 80%;
+            width: 60%;
+            height: auto;
         }
 
     .menu a {
