@@ -39,21 +39,21 @@ The main objective in creating this website is to visually represent the band’
 
 All wireframes were designed for laptop/desktop, iPad/tablet and phone screens.
 
-[Home - desktop](assets/wireframes/home-desktop.png) 
-[Home - tablet](assets/wireframes/home-tablet.png) 
-[Home - phone](assets/wireframes/home-phone.png)
+[Home - desktop](assets/wireframes/home-desktop.png)  
+[Home - tablet](assets/wireframes/home-tablet.png)  
+[Home - phone](assets/wireframes/home-phone.png)  
 
-[Band - desktop](assets/wireframes/band-desktop.png) 
-[Band - tablet](assets/wireframes/band-tablet.png) 
-[Band - phone](assets/wireframes/band-phone.png)
+[Band - desktop](assets/wireframes/band-desktop.png)  
+[Band - tablet](assets/wireframes/band-tablet.png)  
+[Band - phone](assets/wireframes/band-phone.png)  
 
-[Discography - desktop](assets/wireframes/discography-desktop.png) 
-[Discography - tablet](assets/wireframes/discography-tablet.png) 
-[Discography - phone](assets/wireframes/discography-phone.png)
+[Discography - desktop](assets/wireframes/discography-desktop.png)  
+[Discography - tablet](assets/wireframes/discography-tablet.png)  
+[Discography - phone](assets/wireframes/discography-phone.png)  
 
-[Contact - desktop](assets/wireframes/contact-desktop.png) 
-[Contact - tablet](assets/wireframes/contact-tablet.png) 
-[Contact - phone](assets/wireframes/contact-phone.png)
+[Contact - desktop](assets/wireframes/contact-desktop.png)   
+[Contact - tablet](assets/wireframes/contact-tablet.png)  
+[Contact - phone](assets/wireframes/contact-phone.png)  
 
 ## Features
 
