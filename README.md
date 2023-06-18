@@ -57,44 +57,53 @@ All wireframes were designed for laptop/desktop, iPad/tablet and phone screens.
 
 ![Navigation bar](assets/images/navbar.png)
 
+
 - Hero image slider
   - The hero image slider contains three different images. The images help the user to get a better feeling of the band’s music. 
   - A first-time visitor of the website will get a positive, visual introduction to the band.
 
 ![Hero-image slider](assets/images/hero-image.png)
 
+
 - Tour dates section
   - The tour dates section provides an overview of upcoming tour dates and links to purchase tickets.
 
 ![Tour dates section](assets/images/tour-dates.png)
+
 
 - The footer
   - The footer includes links to the social media pages of the band. The social media pages will open in new tabs to allow users to navigate easily.
 
 ![Footer](assets/images/footer.png)
 
+
 - Band page
   - The band page introduces the user to the individual members of the band.
 
 ![Band solo photos](assets/images/band-solo.png)
 
+
   - The user can read an interesting article about the band’s long history.
 
 ![Band history](assets/images/band-history.png)
+
 
 - Discography page
   - The discography page shows all albums that the band has released until today. 
 
 ![Discography](assets/images/albums.png)
 
+
 - Contact page
   - The contact page provides information about the band’s management, record company and booking agent. 
 
 ![Contacts](assets/images/contacts.png)
 
+
   - The contact form allows users a convenient way to send a message to the band.
 
-![Contact form](asssetts/images/contact-form.png)
+![Contact form](assets/images/contact-form.png)
+
 
 ### Future Features
 
