@@ -39,6 +39,14 @@ The main objective in creating this website is to visually represent the band’
 
 All wireframes were designed for laptop/desktop, iPad/tablet and phone screens.
 
+[Home - desktop](assets/wireframes/home-desktop.png) [Home - tablet](assets/wireframes/home-tablet.png) [Home - phone](assets/wireframes/home-phone.png)
+
+[Band - desktop](assets/wireframes/band-desktop.png) [Band - tablet](assets/wireframes/band-tablet.png) [Band - phone](assets/wireframes/band-phone.png)
+
+[Discography - desktop](assets/wireframes/discography-desktop.png) [Discography - tablet](assets/wireframes/discography-tablet.png) [Discography - phone](assets/wireframes/discography-phone.png)
+
+[Contact - desktop](assets/wireframes/contact-desktop.png) [Contact - tablet](assets/wireframes/contact-tablet.png) [Contact - phone](assets/wireframes/contact-phone.png)
+
 ## Features
 
 ### Current features
@@ -46,21 +54,47 @@ All wireframes were designed for laptop/desktop, iPad/tablet and phone screens.
 - Navigation bar
   - The navigation bar is featured on all four pages of the project. It includes links to the logo, the home, band, discography and contact pages. The navigation bar is fully responsive and changes into a hamburger menu on smaller screens.
   - The navigation bar will allow users to navigate the website easily and is identical on all pages for better usability.
+
+![Navigation bar](assets/images/navbar.png)
+
 - Hero image slider
   - The hero image slider contains three different images. The images help the user to get a better feeling of the band’s music. 
   - A first-time visitor of the website will get a positive, visual introduction to the band.
+
+![Hero-image slider](assets/images/hero-image.png)
+
 - Tour dates section
   - The tour dates section provides an overview of upcoming tour dates and links to purchase tickets.
+
+![Tour dates section](assets/images/tour-dates.png)
+
 - The footer
   - The footer includes links to the social media pages of the band. The social media pages will open in new tabs to allow users to navigate easily.
+
+![Footer](assets/images/footer.png)
+
 - Band page
-  - The band page introduces the user to the individual members of the band. 
+  - The band page introduces the user to the individual members of the band.
+
+![Band solo photos](assets/images/band-solo.png)
+
   - The user can read an interesting article about the band’s long history.
+
+![Band history](assets/images/band-history.png)
+
 - Discography page
   - The discography page shows all albums that the band has released until today. 
+
+![Discography](assets/images/albums.png)
+
 - Contact page
   - The contact page provides information about the band’s management, record company and booking agent. 
+
+![Contacts](assets/images/contacts.png)
+
   - The contact form allows users a convenient way to send a message to the band.
+
+![Contact form](asssetts/images/contact-form.png)
 
 ### Future Features
 
@@ -132,9 +166,13 @@ I asked a few people to test the website on various devices. Their feedback was 
 
 Lighthouse was used to see if there were issues with the performance of the website. 
 
+![Lighthouse](assets/images/lighthouse.png)
+
 #### PowerMapper
 
 PowerMapper was used to check the website for compatibility across different browsers.
+
+![PowerMapper](assets/images/power-mapper.png)
 
 ## Deployment
 
@@ -162,11 +200,11 @@ The live link can be found [here](https://stefaniegadow.github.io/praying-mantis
 - 
 ### Content
 
-The majority of the content was taken from the existing Praying Mantis website. Some smaller parts were added since their band history was not updated since 2019. 
+The majority of the content was taken from the existing [Praying Mantis website](https://www.prayingmantis.rocks). Some smaller parts were added since their band history was not updated since 2019. 
 
 ### Media
 
-All album covers, and the band logo were taken from the existing Praying Mantis website. 
+All album covers, and the band logo were taken from the existing [Praying Mantis website](https://www.prayingmantis.rocks).
 All band photographs are my own. 
 
 
