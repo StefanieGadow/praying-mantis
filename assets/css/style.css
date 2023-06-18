@@ -356,10 +356,11 @@ td {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
+    }
 
 .member-photos img {
     border-radius: 8px;
+    margin-bottom: 12px;
 }
 
 /* Image overlay */
@@ -398,6 +399,24 @@ td {
 
 .overlay-text p {
     font-size: 110%;
+}
+
+.image figcaption {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 980px){
+    .image figcaption {
+        visibility: visible;
+        font-size: 80%;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+
+    .overlay,
+    .overlay-text {
+        visibility: hidden;
+    }
 }
 
 /* Discography page */

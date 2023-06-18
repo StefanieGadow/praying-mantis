@@ -39,13 +39,21 @@ The main objective in creating this website is to visually represent the band’
 
 All wireframes were designed for laptop/desktop, iPad/tablet and phone screens.
 
-[Home - desktop](assets/wireframes/home-desktop.png) [Home - tablet](assets/wireframes/home-tablet.png) [Home - phone](assets/wireframes/home-phone.png)
+[Home - desktop](assets/wireframes/home-desktop.png) 
+[Home - tablet](assets/wireframes/home-tablet.png) 
+[Home - phone](assets/wireframes/home-phone.png)
 
-[Band - desktop](assets/wireframes/band-desktop.png) [Band - tablet](assets/wireframes/band-tablet.png) [Band - phone](assets/wireframes/band-phone.png)
+[Band - desktop](assets/wireframes/band-desktop.png) 
+[Band - tablet](assets/wireframes/band-tablet.png) 
+[Band - phone](assets/wireframes/band-phone.png)
 
-[Discography - desktop](assets/wireframes/discography-desktop.png) [Discography - tablet](assets/wireframes/discography-tablet.png) [Discography - phone](assets/wireframes/discography-phone.png)
+[Discography - desktop](assets/wireframes/discography-desktop.png) 
+[Discography - tablet](assets/wireframes/discography-tablet.png) 
+[Discography - phone](assets/wireframes/discography-phone.png)
 
-[Contact - desktop](assets/wireframes/contact-desktop.png) [Contact - tablet](assets/wireframes/contact-tablet.png) [Contact - phone](assets/wireframes/contact-phone.png)
+[Contact - desktop](assets/wireframes/contact-desktop.png) 
+[Contact - tablet](assets/wireframes/contact-tablet.png) 
+[Contact - phone](assets/wireframes/contact-phone.png)
 
 ## Features
 
@@ -79,6 +87,7 @@ All wireframes were designed for laptop/desktop, iPad/tablet and phone screens.
 
 - Band page
   - The band page introduces the user to the individual members of the band.
+  - When viewed on a desktop or laptop, the user can read the band member's name while hovering over the image. On smaller devices, the name will be shown below the photo.
 
 ![Band solo photos](assets/images/band-solo.png)
 
@@ -89,7 +98,8 @@ All wireframes were designed for laptop/desktop, iPad/tablet and phone screens.
 
 
 - Discography page
-  - The discography page shows all albums that the band has released until today. 
+  - The discography page shows all albums that the band has released until today.
+  - When viewed on a desktop or laptop, the user can read the album's title while hovering over the image. On smaller devices, the title will be shown below the image.
 
 ![Discography](assets/images/albums.png)
 
