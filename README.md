@@ -216,7 +216,7 @@ The live link can be found [here](https://stefaniegadow.github.io/praying-mantis
 
 - The hero image slider was created with the help of this [tutorial](https://www.w3docs.com/snippets/css/how-to-create-an-image-slider-or-slideshow.html#slide-1). Commented in HTML and CSS for clarity.
 - The change from the desktop navigation bar to the hamburger menu on smaller screens was created using this [tutorial](https://www.youtube.com/watch?v=QQlxvj_GKss). Commented in HTML and CSS for clarity.
-- 
+
 ### Content
 
 The majority of the content was taken from the existing [Praying Mantis website](https://www.prayingmantis.rocks). Some smaller parts were added since their band history was not updated since 2019. 
