@@ -145,7 +145,8 @@ All wireframes were designed for laptop/desktop, iPad/tablet and phone screens.
 ### Validating
 
 After the completion of sections, the following websites were used to check for syntax errors:
-- HTML – [HTML validator](https://validator.w3.org/nu/)
+
+- HTML – [HTML validator](https://validator.w3.org/nu/) No errors or warnings found.
 - CSS – [CSS validator](https://jigsaw.w3.org/css-validator/)
 No errors or warnings found.
 
